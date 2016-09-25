@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="myFirstApp">
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <style>body { font-size: 1.3em; }</style>
+    <title>LunchCheck</title>
+  </head>
+  <body>
+    <h1>LunchCheck</h1>
+    <div ng-controller="LunchCheckController">
+
+      <div>
+        <input type="text" ng-model="lunch">
+          Inside my input: {{lunch}}
+          <p>{{name}}</p>
+          <br>
+            <button ng-click="checkEnough()">check if enough</button>
+            <br>
+            
+            <img ng-src="images/yaakov_{{stateOfBeing}}.png">
+        <div>
+
+    </div>
+      <div>
+
+
+      </div>
+        <br>
+
+
+      </div>
+      <br>
+    </div>
+  </body>
+</html>
